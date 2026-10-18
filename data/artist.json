@@ -1,0 +1,498 @@
+{
+  "dataStatus": "fictional-demo",
+  "notice": "All artist, contact, location, and event details in this file are fictional demonstration data.",
+  "artist": {
+    "name": "Jack Reinhardt",
+    "discipline": "Musician",
+    "tagline": "Songs for close rooms and open-air evenings.",
+    "biography": {
+      "paragraphs": [
+        "With over 20 years of experience, Jack Reinhardt is a versatile performing musician whose passion for music has taken him across the world. Having studied music in London, he has developed a distinctive style that blends influences from blues, folk, indie, pop, rock, and beyond.",
+        "A talented singer and multi-instrumentalist, Jack effortlessly moves between beloved covers and original compositions, creating performances that feel both familiar and fresh. His engaging stage presence and natural connection with audiences turn every show into a unique musical experience.",
+        "Having performed in a myriad of countries and diverse venues, Jack brings a wealth of musical influences and live experience to every performance. Whether playing an intimate acoustic set or delivering a more energetic show, his goal remains the same: to share great music, connect with people, and leave a lasting impression."
+      ],
+      "mock": true
+    },
+    "portrait": {
+      "src": "https://coimbramusica.com/wp-content/uploads/jack-reinhardt.jpg",
+      "alt": "Jack Reinhardt",
+      "width": 480,
+      "height": 600,
+      "mock": true
+    },
+    "repertoire": {
+      "genres": [
+        "Blues",
+        "Folk",
+        "Indie",
+        "Pop",
+        "Rock",
+        "Soul",
+        "Country",
+        "Funk"
+      ],
+      "description": "A 60-song repertoire of cover songs and Jack Reinhardt originals across blues, folk, indie, pop, rock, soul, country, and funk.",
+      "mock": true,
+      "songs": [
+        {
+          "title": "The Thrill Is Gone",
+          "artist": "B.B. King",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Sweet Home Chicago",
+          "artist": "Robert Johnson / Blues standard",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Before You Accuse Me",
+          "artist": "Bo Diddley",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Pride and Joy",
+          "artist": "Stevie Ray Vaughan",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "I'd Rather Go Blind",
+          "artist": "Etta James",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Crossroads",
+          "artist": "Robert Johnson / Cream",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Bill Withers",
+          "genre": "Blues / Soul",
+          "mock": true
+        },
+        {
+          "title": "Red House",
+          "artist": "Jimi Hendrix",
+          "genre": "Blues Rock",
+          "mock": true
+        },
+        {
+          "title": "Stormy Monday",
+          "artist": "T-Bone Walker",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Walking Blues",
+          "artist": "Robert Johnson",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "Midnight Train",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Blues",
+          "mock": true
+        },
+        {
+          "title": "The Devil Knows My Name",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Blues Rock",
+          "mock": true
+        },
+        {
+          "title": "Do I Wanna Know?",
+          "artist": "Arctic Monkeys",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Creep",
+          "artist": "Radiohead",
+          "genre": "Alternative Rock",
+          "mock": true
+        },
+        {
+          "title": "Last Nite",
+          "artist": "The Strokes",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Use Somebody",
+          "artist": "Kings of Leon",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Ho Hey",
+          "artist": "The Lumineers",
+          "genre": "Indie Folk",
+          "mock": true
+        },
+        {
+          "title": "Take Me Out",
+          "artist": "Franz Ferdinand",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Mr. Brightside",
+          "artist": "The Killers",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Yellow",
+          "artist": "Coldplay",
+          "genre": "Indie Pop",
+          "mock": true
+        },
+        {
+          "title": "Seven Nation Army",
+          "artist": "The White Stripes",
+          "genre": "Garage Rock",
+          "mock": true
+        },
+        {
+          "title": "Somebody Told Me",
+          "artist": "The Killers",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Paper Moons",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Indie Folk",
+          "mock": true
+        },
+        {
+          "title": "City Lights Fade",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Indie Rock",
+          "mock": true
+        },
+        {
+          "title": "Heart on the Run",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Indie Pop",
+          "mock": true
+        },
+        {
+          "title": "The Times They Are A-Changin'",
+          "artist": "Bob Dylan",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Fast Car",
+          "artist": "Tracy Chapman",
+          "genre": "Folk / Singer-Songwriter",
+          "mock": true
+        },
+        {
+          "title": "Big Yellow Taxi",
+          "artist": "Joni Mitchell",
+          "genre": "Folk Rock",
+          "mock": true
+        },
+        {
+          "title": "The Boxer",
+          "artist": "Simon & Garfunkel",
+          "genre": "Folk Rock",
+          "mock": true
+        },
+        {
+          "title": "Hallelujah",
+          "artist": "Leonard Cohen",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Folsom Prison Blues",
+          "artist": "Johnny Cash",
+          "genre": "Country / Folk",
+          "mock": true
+        },
+        {
+          "title": "Jolene",
+          "artist": "Dolly Parton",
+          "genre": "Country / Folk",
+          "mock": true
+        },
+        {
+          "title": "Father and Son",
+          "artist": "Cat Stevens",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Wild World",
+          "artist": "Cat Stevens",
+          "genre": "Folk Rock",
+          "mock": true
+        },
+        {
+          "title": "Landslide",
+          "artist": "Fleetwood Mac",
+          "genre": "Folk Rock",
+          "mock": true
+        },
+        {
+          "title": "The Road Back Home",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Old Photographs",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Where the River Ends",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Folk",
+          "mock": true
+        },
+        {
+          "title": "Stand by Me",
+          "artist": "Ben E. King",
+          "genre": "Classic Pop / Soul",
+          "mock": true
+        },
+        {
+          "title": "Ain't No Mountain High Enough",
+          "artist": "Marvin Gaye & Tammi Terrell",
+          "genre": "Classic Pop / Soul",
+          "mock": true
+        },
+        {
+          "title": "Can't Help Falling in Love",
+          "artist": "Elvis Presley",
+          "genre": "Classic Pop",
+          "mock": true
+        },
+        {
+          "title": "Suspicious Minds",
+          "artist": "Elvis Presley",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Let It Be",
+          "artist": "The Beatles",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Come Together",
+          "artist": "The Beatles",
+          "genre": "Classic Rock",
+          "mock": true
+        },
+        {
+          "title": "Brown Eyed Girl",
+          "artist": "Van Morrison",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Wonderful Tonight",
+          "artist": "Eric Clapton",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Every Breath You Take",
+          "artist": "The Police",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Dreams",
+          "artist": "Fleetwood Mac",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Go Your Own Way",
+          "artist": "Fleetwood Mac",
+          "genre": "Classic Rock",
+          "mock": true
+        },
+        {
+          "title": "Englishman in New York",
+          "artist": "Sting",
+          "genre": "Classic Pop",
+          "mock": true
+        },
+        {
+          "title": "Roxanne",
+          "artist": "The Police",
+          "genre": "Classic Rock",
+          "mock": true
+        },
+        {
+          "title": "Don't Stop Me Now",
+          "artist": "Queen",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "Isn't She Lovely",
+          "artist": "Stevie Wonder",
+          "genre": "Classic Pop / Soul",
+          "mock": true
+        },
+        {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "genre": "Funk / Classic Pop",
+          "mock": true
+        },
+        {
+          "title": "Dancing in the Moonlight",
+          "artist": "King Harvest",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        },
+        {
+          "title": "You Can't Hurry Love",
+          "artist": "The Supremes",
+          "genre": "Classic Pop / Soul",
+          "mock": true
+        },
+        {
+          "title": "The Long Way Home",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Classic Pop",
+          "mock": true
+        },
+        {
+          "title": "Nothing Left to Prove",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Classic Pop / Soul",
+          "mock": true
+        },
+        {
+          "title": "Better Days Ahead",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Classic Pop / Folk",
+          "mock": true
+        },
+        {
+          "title": "One More Song Tonight",
+          "artist": "Jack Reinhardt (Original)",
+          "genre": "Classic Pop / Rock",
+          "mock": true
+        }
+      ]
+    },
+    "originalMusic": {
+      "description": "Original songs are part of the fictional demo set list.",
+      "mock": true
+    },
+    "offerings": [
+      {
+        "id": "private-concerts",
+        "label": "Private concerts",
+        "description": "Fictional private-concert offering for demonstration purposes.",
+        "mock": true
+      },
+      {
+        "id": "public-concerts",
+        "label": "Public concerts",
+        "description": "Fictional public-concert offering for demonstration purposes.",
+        "mock": true
+      }
+    ],
+    "contact": {
+      "email": "jack@example.com",
+      "label": "Booking contact",
+      "mock": true
+    },
+    "socialProfiles": [],
+    "events": [
+      {
+        "id": "sample-seville-public-concert",
+        "name": "Evening Songs in Seville",
+        "startDate": "2026-11-14T20:00:00+01:00",
+        "concertType": "Public",
+        "venue": "Sala del Azahar",
+        "city": "Seville",
+        "region": "Andalusia",
+        "location": "Seville, Andalusia",
+        "description": "Fictional public concert; this is not a real event.",
+        "mock": true
+      },
+      {
+        "id": "sample-barcelona-private-concert",
+        "name": "An Intimate Acoustic Set",
+        "startDate": "2026-12-05T19:30:00+01:00",
+        "concertType": "Private",
+        "venue": "Casa de la Llum",
+        "city": "Barcelona",
+        "region": "Catalonia",
+        "location": "Barcelona, Catalonia",
+        "description": "Fictional private concert; this is not a real event.",
+        "mock": true
+      },
+      {
+        "id": "sample-madrid-public-concert",
+        "name": "Songs for a Winter Night",
+        "startDate": "2027-01-16T20:30:00+01:00",
+        "concertType": "Public",
+        "venue": "Teatro de la Encina",
+        "city": "Madrid",
+        "region": "Community of Madrid",
+        "location": "Madrid, Community of Madrid",
+        "description": "Fictional public concert; this is not a real event.",
+        "mock": true
+      },
+      {
+        "id": "sample-vigo-private-concert",
+        "name": "A Gathering of Friends",
+        "startDate": "2027-02-12T19:00:00+01:00",
+        "concertType": "Private",
+        "venue": "Pazo das Ondas",
+        "city": "Vigo",
+        "region": "Galicia",
+        "location": "Vigo, Galicia",
+        "description": "Fictional private concert; this is not a real event.",
+        "mock": true
+      },
+      {
+        "id": "sample-bilbao-public-concert",
+        "name": "Northern Light Sessions",
+        "startDate": "2027-03-06T20:00:00+01:00",
+        "concertType": "Public",
+        "venue": "La Fábrica del Río",
+        "city": "Bilbao",
+        "region": "Basque Country",
+        "location": "Bilbao, Basque Country",
+        "description": "Fictional public concert; this is not a real event.",
+        "mock": true
+      },
+      {
+        "id": "sample-las-palmas-private-concert",
+        "name": "Island House Concert",
+        "startDate": "2027-04-10T19:30:00+01:00",
+        "concertType": "Private",
+        "venue": "Patio de las Palmeras",
+        "city": "Las Palmas de Gran Canaria",
+        "region": "Canary Islands",
+        "location": "Las Palmas de Gran Canaria, Canary Islands",
+        "description": "Fictional private concert; this is not a real event.",
+        "mock": true
+      }
+    ]
+  }
+}

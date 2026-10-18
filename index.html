@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ artist_data.artist.name }} | Fictional Musician Demo</title>
+	<meta name="description" content="{{ artist_data.artist.name }} is a fictional {{ artist_data.artist.discipline|lower }} demo offering {{ artist_data.artist.offerings|map(attribute='label')|join(' and ') }}, cover music across {{ artist_data.artist.repertoire.genres|join(', ') }}, and original music.">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="/style.css">
+	<script type="application/ld+json">
+		{{ {
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": artist_data.artist.name,
+			"jobTitle": artist_data.artist.discipline,
+			"description": artist_data.artist.biography.paragraphs|join(' ')
+		}|tojson }}
+	</script>
+</head>
+<body>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+	<header class="site-header">
+		<a class="site-title" href="#hero">{{ artist_data.artist.name }}</a>
+		<nav aria-label="Main navigation">
+			<ul>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#events">Events</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="main-content" tabindex="-1">
+		<section id="hero" aria-labelledby="hero-title">
+			<p>{{ artist_data.artist.discipline }}</p>
+			<h1 id="hero-title">{{ artist_data.artist.name }}</h1>
+			<p>{{ artist_data.artist.tagline }}</p>
+			<ul>
+				{% for offering in artist_data.artist.offerings %}
+				<li>{{ offering.label }}</li>
+				{% endfor %}
+			</ul>
+			<a href="#events">Explore events</a>
+		</section>
+
+		<section id="about" aria-labelledby="about-title">
+			<h2 id="about-title">About Me</h2>
+			<div>
+				{% for paragraph in artist_data.artist.biography.paragraphs %}
+				<p>{{ paragraph }}</p>
+				{% endfor %}
+				{% if artist_data.artist.portrait.src %}
+				<img src="{{ artist_data.artist.portrait.src }}" alt="{{ artist_data.artist.portrait.alt }}" loading="lazy" decoding="async" {% if artist_data.artist.portrait.width %}width="{{ artist_data.artist.portrait.width }}"{% endif %} {% if artist_data.artist.portrait.height %}height="{{ artist_data.artist.portrait.height }}"{% endif %}>
+				{% else %}
+				<p>{{ artist_data.artist.portrait.alt }}</p>
+				{% endif %}
+			</div>
+		</section>
+
+		<section id="experience" aria-labelledby="experience-title">
+			<h2 id="experience-title">Experience</h2>
+			<p>{{ artist_data.artist.repertoire.description }}</p>
+			<ul aria-label="Filter songs by genre">
+				<li>
+					<a href="/#experience" {% if selected_genre == 'All' %}aria-current="page"{% endif %}>
+						{% if selected_genre == 'All' %}<strong>All</strong>{% else %}All{% endif %}
+					</a>
+				</li>
+				{% for genre in artist_data.artist.repertoire.genres %}
+				<li>
+					<a href="/?genre={{ genre|urlencode }}#experience" {% if selected_genre == genre %}aria-current="page"{% endif %}>
+						{% if selected_genre == genre %}<strong>{{ genre }}</strong>{% else %}{{ genre }}{% endif %}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Song title</th>
+						<th scope="col">Artist / Type</th>
+						<th scope="col">Genre</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for song in songs %}
+					<tr>
+						<th scope="row">{{ song.title }}</th>
+						<td>{{ song.artist }}</td>
+						<td>{{ song.genre }}</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</section>
+
+		<section id="events" aria-labelledby="events-title">
+			<h2 id="events-title">Events</h2>
+			{% for event in artist_data.artist.events %}
+			<article>
+				{% if event.mock %}<p>Fictional {{ event.concertType|lower }} concert</p>{% endif %}
+				<h3>{{ event.name }}</h3>
+				<p><time datetime="{{ event.startDate }}">{{ event.startDate }}</time></p>
+				<p><strong>Venue:</strong> {{ event.venue }}</p>
+				<p><strong>City:</strong> {{ event.city }}</p>
+				<p><strong>Region:</strong> {{ event.region }}</p>
+				<p>{{ event.description }}</p>
+			</article>
+			{% else %}
+			<p>No sample events are currently listed.</p>
+			{% endfor %}
+			<a href="mailto:{{ artist_data.artist.contact.email }}">{{ artist_data.artist.contact.label }}</a>
+		</section>
+	</main>
+</body>
+</html>
